@@ -14,6 +14,7 @@ And he still doesn't know why we did this, after I told him multiple times.
 
 ## **"If Zastix is leaving, I'm leaving too."**
 This is a hard one. Zastix originally said he would finish the spammer with me, but is no longer going to, and I will have to continue it by myself.  
+Unfortunately, I don't know how to work on the backend for the spammer, so I won't work on it either.
 So, I will work with him on releasing the full, incomplete, and broken source code instead.  
 
 After all this shit happened, Zastix decided to leave, and I will be deleting my website, all my Replit repositories, and all my GitHub repositories except this one.  
