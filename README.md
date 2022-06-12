@@ -1,5 +1,7 @@
 # leaving betastar
 
+**when I refer to "we", I mean Zastix and I.**
+
 Xotic has fucked me over multiple times.
 - Hacked my friends' guilded/discord accounts to leak their dms, all the while he harasses me over what I said to them
 - Frauded Zastix's PayPal out of $100
