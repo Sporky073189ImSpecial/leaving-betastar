@@ -9,6 +9,8 @@ Xotic has fucked me over multiple times.
 - Never listened to anything I asked him to do that would help him
 - Threatened to doxx me, leak my IP, come to my house and shoot me
 - Manipulated and extorted me out of my intentionally broken "exploits"
+- Logs everyone's IPs, passwords, chat messages
+- Allows himself to execute unsafe code on everyones' browsers
 
 And he still doesn't know why we did this, after I told him multiple times.
 
