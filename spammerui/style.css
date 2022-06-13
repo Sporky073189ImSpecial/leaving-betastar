@@ -1,0 +1,242 @@
+/*
+This ui is designed to closely resemble spamis.fun dark mode, as requested by Zastix.
+
+THIS IS A PUBLIC, STRIPPED-DOWN VERSION OF THE SPAMMER UI RELEASED TO THE PUBLIC.
+THIS VERSION DOES NOT HAVE A PAYLOAD ENCODER, ANY HTTP FUNCTIONS, A BACKEND, OR ANY PERSONAL CODE THAT
+BOTH ZASTIX AND I REFUSE TO RELEASE TO THE PUBLIC.
+THIS IS RELEASED INTO THE PUBLIC DOMAIN AND ANY PART OF THIS CODE IS ALLOWED TO BE USED WITHOUT RESTRICTIONS.
+PLEASE KEEP THIS NOTICE INTACT IF YOU ARE WILLING TO SUPPORT THE CREATORS, ZASTIX AND ACAI.
+*/
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.modUI {
+  color: white;
+  background-color: #21252b;
+  border: 1px solid #33363c;
+  outline: 3px solid #21252b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 75vw;
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: clip;
+  border-radius: 0.1rem;
+}
+
+.modUI > .tabs {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-right: 1px solid #33363c;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  float: left;
+}
+
+.modUI > .tabs > button > .fa {
+  color: white;
+  -webkit-transform: scale(4);
+  -ms-transform: scale(4);
+  transform: scale(4);
+  margin: auto;
+  pointer-events: none;
+  -webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.modUI > .tabs > button {
+  background-color: #21252b;
+  color: white;
+  width: 5em;
+  height: 5em;
+  outline: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-width: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.modUI > .tabs > button:hover {
+  /*height: 7em;
+   box-sizing: border-box;
+   width: 5em;*/
+  padding-left: 12px;
+}
+
+.modUI > .mods {
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 90%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.modUI > .panel {
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+textarea[type="text"] {
+  background-color: #282c34;
+  color: white;
+  margin-bottom: 5px;
+  border: 1px solid #464c55;
+  outline: none;
+  text-align: left;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  font-family: "Roboto", sans-serif;
+  width: 98%;
+  height: 30%;
+  margin-top: 5%;
+  rezize: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.generalBtn {
+  background-color: #282c34;
+  color: white;
+  margin-bottom: 5px;
+  border: 1px solid #464c55;
+  border-radius: 0.1rem;
+  outline: none;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.important {
+  color: red !important;
+}
+
+.selected {
+  color: gray !important;
+}
+
+label {
+  float: left;
+  margin-right: none;
+  padding-right: none;
+}
+
+.slider {
+  all: unset;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 5px !important;
+  background-color: #1f2229;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #282f37;
+  border: 1px solid #464c55;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  margin-top: auto;
+}
+
+.startStop {
+  background-color: #333841;
+  border: 1px solid #464c55;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 10%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 49%;
+  border-radius: 0.1rem;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #333841;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  border: 1px solid #464c55;
+  vertical-align: middle;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  pointer-events: all;
+}
+
+.checkbox:checked {
+  background-color: #364d7b;
+}
+
+label {
+  pointer-events: none;
+}
+
+.grayOut {
+  pointer-events: none;
+  filter: grayscale(100%);
+}
