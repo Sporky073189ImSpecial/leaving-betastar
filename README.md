@@ -37,7 +37,7 @@ There's an exploit that we abused to log EVERYONE's session IDs, that we could u
 
 ```/announce->Close this-><img src="h" onerror="(zastix's secret code, not supposed to release)">```
 
-This runs unsafe code on everyone's browsers! A Tampermonkey script to patch this exploit will be released shortly after I finish this documentation.
+This runs unsafe code on everyone's browsers! A [Tampermonkey script](https://github.com/l2vy7/leaving-betastar/blob/main/scripts/zastixsecure.js) to patch this exploit has been released.
 
 Aside from commands, we also did other stuff as well.
 
