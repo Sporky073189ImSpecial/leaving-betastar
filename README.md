@@ -1,3 +1,5 @@
+<img src="/assets/brokenstar.png" width="500%">
+
 # leaving betastar
 
 **when I refer to "we", I mean Zastix and I.**
