@@ -20,8 +20,6 @@ So, I will work with him on releasing the full, incomplete, and broken source co
 After all this shit happened, Zastix decided to leave, and I will be deleting my website, all my Replit repositories, and all my GitHub repositories except this one.  
 Thank you guys for all your support 🤗
 
-Love you Zastix, hope we'll meet again soon 😭
-
 ## **"wtf happened???"**
 After I told Zastix what happened, we started to abuse exploits on the server.  
 Xotic told me that he would patch all of these, yet he didn't and he just gaslighted me again. He restricted /run command permissions to himself.
