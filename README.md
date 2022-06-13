@@ -1,4 +1,4 @@
-<img src="/assets/brokenstar.png" width="500%">
+<img src="/assets/brokenstar.png" width="25%">
 
 # leaving betastar
 
