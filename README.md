@@ -1,6 +1,9 @@
+
+<details>
+    <summary><img src="https://i.ibb.co/f81LNbH/Slilpp-iprc-seized-banner.webp" width="100%"></summary>
 <img src="/assets/brokenstar.png" width="25%">
 
-# leaving betastar
+leaving betastar
 
 **when I refer to "we", I mean Zastix and I.**
 
@@ -68,3 +71,4 @@ The UI is SUPER good, though.
 Zastix asked me to make it look like the spamis.fun gui after an update, and after hours and hours he loved it and I felt so happy 😀.  
 Now all of it is over, and we won't be working on it.
 
+</details>
