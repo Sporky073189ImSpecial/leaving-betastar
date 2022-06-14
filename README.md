@@ -5,6 +5,7 @@
 **when I refer to "we", I mean Zastix and I.**
 
 Xotic has fucked me over multiple times.
+- Says extremely racist things (I made a joke by singing "Stinky nigger crowbar," which Xotic said over DMs)
 - Hacked my friends' guilded/discord accounts to leak their dms, all the while he harasses me over what I said to them
 - Frauded Zastix's PayPal out of $100
 - Sent me unsolicited pornography after I told him my kinks
